@@ -22,13 +22,22 @@
 .navigation-bar{
     text-decoration: none;
     color: white;
+    font-size: small;
 }
 .navigation-bar2{
     text-decoration: none;
     color: white;
+    font-size: small;
 }
 .navigation-bar3{
     text-decoration: none;
     color: white;
+    font-size: small;
+}
+
+
+
+.name-line{
+    font-size:small;
 }
  
