@@ -11,6 +11,22 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
+        <style>
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            li {
+                display: inline;
+                margin-right: 10px; /* Adjust as needed for spacing */
+            }
+
+            li:not(:last-child)::after {
+                content: " | ";
+                color: #FFFFFF;
+                margin-left: 20px;
+            }
+        </style>
     </head>
 
     <body>
@@ -21,22 +37,23 @@
                         src="assets/img/download (4).jpeg" alt>
                 </div>
             </div>
-            <div class="bg-info">
-                <div class="row">
-                    <ul class="d-flex flex-nowrap justify-content-evenly">
-                        <a class="text-decoration-none" href>About Us</a>
-                        <a class="text-decoration-none"
-                            href="./index.html">Home</a>
-                        <a class="text-decoration-none"
-                            href="./index.html">मुखपृष्ठ</a>
-                        <a class="text-decoration-none" href>खातेदार</a>
-                        <a class="text-decoration-none"
-                            href>Grampanchayat Log-in</a>
-                        <a class="text-decoration-none" href="./WebletterToGP.html">Write Message</a>
-                        <a class="text-decoration-none" href="./WebsiteFeedback.html">Website
-                            Feedback</a>
-                    </ul>
-                </div>
+            <div class="bg-secondary">
+                <ul class="d-flex justify-content-evenly py-1">
+                    <li> <a class="navigation-bar" href>About Us</a></li>
+                    <li><a class="navigation-bar"
+                            href="./index.html">Home</a></li>
+                    <li><a class="navigation-bar"
+                            href="./index.html">मुखपृष्ठ</a></li>
+                    <li><a class="navigation-bar"
+                            href="./KhatedarHome.html">खातेदार</a></li>
+                    <li><a class="navigation-bar"
+                            href="./LoginGP.html">Grampanchayat Log-in</a></li>
+                    <li><a class="navigation-bar"
+                            href="./WebletterToGP.html">Write Message</a></li>
+                    <li><a class="navigation-bar"
+                            href="./WebsiteFeedback.html">Website
+                            Feedback</a></li>
+                </ul>
             </div>
             <hr>
             <div class="text-white text-center mb-4"
