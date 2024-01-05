@@ -8,6 +8,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 10px; /* Adjust as needed for spacing */
+        }
+
+        li:not(:last-child)::after {
+            content: " | ";
+            color: #FFFFFF;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,18 +33,22 @@
                 <img style="height: 80px; width: 100%;" src="assets/img/download (4).jpeg" alt="">
             </div>
         </div>
-        <div class="" style="background-color: #64B5F6;">
-            <div class="row">
-                <ul class="d-flex flex-nowrap justify-content-evenly py-1">
-                    <a class="navigation-bar" href="">About Us</a>
-                    <a class="navigation-bar" href="./index.html">Home</a>
-                    <a class="navigation-bar" href="./index.html">मुखपृष्ठ</a>
-                    <a class="navigation-bar" href="">खातेदार</a>
-                    <a class="navigation-bar" href="./LoginGP.html">Grampanchayat Log-in</a>
-                    <a class="navigation-bar" href="./WebletterToGP.html">Write Message</a>
-                    <a class="navigation-bar" href="./WebsiteFeedback.html">Website Feedback</a>
-                </ul>
-            </div>
+        <div class="bg-secondary">
+            <ul class="d-flex justify-content-evenly py-1">
+                <li> <a class="navigation-bar" href>About Us</a></li>
+                <li><a class="navigation-bar"
+                        href="./index.html">Home</a></li>
+                <li><a class="navigation-bar"
+                        href="./index.html">मुखपृष्ठ</a></li>
+                <li><a class="navigation-bar" href="./KhatedarHome.html">खातेदार</a></li>
+                <li><a class="navigation-bar"
+                        href="./LoginGP.html">Grampanchayat Log-in</a></li>
+                <li><a class="navigation-bar"
+                        href="./WebletterToGP.html">Write Message</a></li>
+                <li><a class="navigation-bar"
+                        href="./WebsiteFeedback.html">Website
+                        Feedback</a></li>
+            </ul>
         </div>
         <hr>
         <div class="text-white text-center" style="background-color: orange;">
@@ -66,35 +86,40 @@
                 </div>
             </div>
         </div>
-
-        <div class="mt-2" style="background-color: #607D8B;">
-            <div class="row">
-                <ul class="d-flex justify-content-evenly">
-                    <a class="navigation-bar2" href=""><b>Online payment</b></a>
-                    <a class="navigation-bar2" href=""><b>मिळकत माहिती</b></a>
-                    <a class="navigation-bar2" href=""><b>जन्म दाखला</b></a>
-                    <a class="navigation-bar2" href=""><b>मृत्यू दाखला</b></a>
-                    <a class="navigation-bar2" href=""><b>विवाह दाखला</b></a>
-                    <a class="navigation-bar2" href=""><b>उपजत मृत्यू दाखला</b></a>
-                    <a class="navigation-bar2" href=""><b>ग्रामसेवक/ ग्रा.वि.अ. कार्यकाल</b></a>
-                    <a class="navigation-bar2" href=""><b>सरपंच कार्यकाल</b></a>
-                    <a class="navigation-bar2" href=""><b>उपसरपंच कार्यकाल</b></a>
-                </ul>
-            </div>
+        <div class="mt-2">
+            <ul class="d-flex justify-content-evenly"
+                style="background-color: #C0C0C0;">
+                <li class="menu-bar" href><a>Online
+                        payment</a></li>
+                <li class="menu-bar" href><a>मिळकत
+                        माहिती</a></li>
+                <li class="menu-bar" href><a>जन्म दाखला</a></li>
+                <li class="menu-bar" href><a>मृत्यू
+                        दाखला</a></li>
+                <li class="menu-bar" href><a>विवाह
+                        दाखला</a></li>
+                <li class="menu-bar" href><a>उपजत मृत्यू
+                        दाखला</a></li>
+                <li class="menu-bar" href><a>ग्रामसेवक/ग्रा.वि.अ.
+                        कार्यकाल</a></li>
+                <li class="menu-bar" href><a>सरपंच
+                        कार्यकाल</a></li>
+                <li class="menu-bar" href><a>उपसरपंच
+                        कार्यकाल</a></li>
+            </ul>
         </div>
-        <div class="mt-1 py-1" style="background-color: #607D8B;">
-            <div class="row">
-                <ul class="d-flex justify-content-evenly">
-                    <a class="navigation-bar3" href=""><b>सदस्य कार्यकारणी</b></a>
-                    <a class="navigation-bar3" href=""><b>कर्मचारी माहिती</b></a>
-                    <a class="navigation-bar3" href=""><b>ग्रामपंचायतीला पत्र</b></a>
-                    <a class="navigation-bar3" href=""><b>पुर्ण झालेली विकास कामे</b></a>
-                    <a class="navigation-bar3" href=""><b>चालू असलेली विकास कामे</b></a>
-                    <a class="navigation-bar3" href=""><b>नियोजीत विकास कामे</b></a>
-                    <a class="navigation-bar3" href=""><b>झालेल्या सभेची माहिती</b></a>
-                    <a class="navigation-bar3" href=""><b>जमा-खर्च पत्रक</b></a>
-                </ul>
-            </div>
+        <div class="mt-2">
+            <ul class="d-flex justify-content-evenly"
+                style="background-color: #C0C0C0;">
+                <li class="menu-bar"><a>सदस्य कार्यकारणी</a></li>
+                <li class="menu-bar"><a>कर्मचारी माहिती</a></li>
+                <li class="menu-bar"><a>ग्रामपंचायतीला पत्र</a></li>
+                <li class="menu-bar"><a>पुर्ण झालेली विकास कामे</a></li>
+                <li class="menu-bar"><a>चालू असलेली विकास कामे</a></li>
+                <li class="menu-bar"><a>नियोजीत विकास कामे</a></li>
+                <li class="menu-bar"><a>झालेल्या सभेची माहिती</a></li>
+                <li class="menu-bar"><a>जमा-खर्च पत्रक</a></li>
+            </ul>
         </div>
         <div class="row">
             <div class="col">
