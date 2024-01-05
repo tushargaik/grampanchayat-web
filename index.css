@@ -43,10 +43,10 @@
 }
 
 .menu-bar {
-    font-weight: 600;
     text-align : center;
-    color      : Black;
     font-size  : 14px;
+    text-decoration: none;
+    color          : white;
 }
 
 .name-line {
