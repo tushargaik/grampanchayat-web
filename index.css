@@ -1,52 +1,50 @@
- 
+ .table-data {
+     background-color: red;
+     color           : blueviolet;
+ }
 
-.table-data {
-    background-color: red;
-    color           : blueviolet;
-}
+ .table-data {
+     border         : 1px solid black;
+     border-collapse: collapse;
+ }
 
-.table-data {
-    border         : 1px solid black;
-    border-collapse: collapse;
-}
+ .hare-krushana {
+     color           : #FFFFFF;
+     text-align      : center;
+     background-color: #FFFFFF;
+     font-size       : 12px;
+ }
 
-.hare-krushana {
-    color           : #FFFFFF;
-    text-align      : center;
-    background-color: #FFFFFF;
-    font-size       : 12px;
-}
+ .hare-krushana p:hover {
+     color: #FF6600;
+ }
 
-.hare-krushana p:hover {
-    color: #FF6600;
-}
+ .navigation-bar {
+     text-decoration: none;
+     color          : white;
+     font-size      : 14px;
+     text-align     : center;
+ }
 
-.navigation-bar {
-    text-decoration: none;
-    color          : white;
-    font-size      : 14px;
-    text-align     : center;
-}
+ .navigation-bar2 {
+     text-decoration: none;
+     color          : white;
+     font-size      : small;
+ }
 
-.navigation-bar2 {
-    text-decoration: none;
-    color          : white;
-    font-size      : small;
-}
+ .navigation-bar3 {
+     text-decoration: none;
+     color          : white;
+     font-size      : small;
+ }
 
-.navigation-bar3 {
-    text-decoration: none;
-    color          : white;
-    font-size      : small;
-}
+ .menu-bar {
+     text-align     : center;
+     font-size      : 14px;
+     text-decoration: none;
+     color          : white;
+ }
 
-.menu-bar {
-    text-align : center;
-    font-size  : 14px;
-    text-decoration: none;
-    color          : white;
-}
-
-.name-line {
-    font-size: small;
-}
+ .name-line {
+     font-size: small;
+ }
